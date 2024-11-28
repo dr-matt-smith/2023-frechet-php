@@ -45,7 +45,7 @@ class CurveTest extends TestCase
      */
     public function testGetPoints($curve)
     {
-        $this->assertInternalType('array', $curve->getPoints());
+        $this->assertIsArray($curve->getPoints());
     }
 
     /**
